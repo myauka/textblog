@@ -26,14 +26,17 @@
                             <h2><a href="#">HW4</a></h2>
                         </div>
                     </div>
+
                     <div class="col-md-10">
                         <div class="menu">
                             <ul>
                                 <li class="active"><a href="/">Home</a></li>
                                 <li><a href="/profile/">Profile</a></li>
+                                {% block header_buttons %}{% endblock %}
                             </ul>
                         </div>
                     </div>
+
                 </div>
             </div>
         </header>
@@ -50,6 +53,7 @@
                                         <ul>
                                             <li class="active"><a href="/">Home</a></li>
                                             <li><a href="/profile/">Profile</a></li>
+                                            {% block footer_buttons %}{% endblock %}
                                         </ul>
                                     </div>
                                 </div>
